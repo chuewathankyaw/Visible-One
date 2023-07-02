@@ -1,0 +1,8 @@
+
+.bg_section_mobile{
+      background: transparent linear-gradient(90deg, transparent 0%, #3AE7AB 50%, #2DC4EA 100%) 0% 0%;
+
+}
+.bg_section_desktop{
+    background:  linear-gradient(90deg, transparent 11%, #3AE7AB 40%, #2DC4EA 100%) 0% 0%
+}

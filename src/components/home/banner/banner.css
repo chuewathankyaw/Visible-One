@@ -1,0 +1,12 @@
+.banner_bg {
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../../src/images/banner.png);
+    height: 30rem;
+    background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+ 
+
+    
+
+}

@@ -1,0 +1,8 @@
+.footer_bg {
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../../../src/images/footer.jpg);
+    height: 36rem;
+    background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+}

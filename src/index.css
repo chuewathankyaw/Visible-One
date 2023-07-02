@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import "../src/components/home/banner/banner.css";
+@import "../src/components/home/aboutTrippro/aboutTri.css";
+@import "../src/components/home/challenges/challenges.css";
+@import "../src/components/home/slider/slider.css";
+@import "../src/components/home/footer/footer.css"
+

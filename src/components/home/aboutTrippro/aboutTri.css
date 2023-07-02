@@ -1,0 +1,15 @@
+.button_bg{
+    background: transparent linear-gradient(270deg, #3AE7AB 0%, #2DC4EA 100%) 0% 0%;
+}
+
+.circle{
+    width: 524px;
+    height: 524px;
+    background:#fff;
+    border-radius: 50%;
+    border: 5px dashed #EA1A25;
+    display: block;
+}
+.box_shadow{
+    box-shadow: 0px 3px 10px #0000004D;
+}
