@@ -14,12 +14,12 @@ export const Header = () => {
     return (
       <div>
         <img
-          className="absolute ml-[12rem] mt-[-2px]"
+          className="absolute lg:ml-[12rem] sm:ml-[2rem] mt-[-2px]"
           alt="logo"
           src={logoheader}
         />
         <div className="flex   bg-[#00000029] h-[40px] py-2">
-          <div className="basis-1/2 	"></div>
+          <div className="lg:basis-1/2 sm:basis-2/6	"></div>
           <div className="flex gap-5">
             <div className=" flex gap-2">
               <FontAwesomeIcon
@@ -27,11 +27,11 @@ export const Header = () => {
                 style={{ color: "#2DC4EA" }}
                 className="mt-1"
               />
-              <p>6248 0838</p>
+              <p className="lg:text-[16px]">6248 0838</p>
             </div>
             <div className="flex gap-2">
               <i className="uil uil-whatsapp" style={{ color: "#2DC4EA" }}></i>
-              <p>8484 9948</p>
+              <p className="lg:text-[16px]">8484 9948</p>
             </div>
             <div className="flex gap-2">
               <FontAwesomeIcon
@@ -39,12 +39,12 @@ export const Header = () => {
                 style={{ color: "#2DC4EA" }}
                 className="mt-1"
               />
-              <p>info@visibleone.com</p>
+              <p className="lg:text-[16px]">info@visibleone.com</p>
             </div>
             <div className="bg-green-400 px-[4px] rounded">
               <button className="flex gap-1">
                 <i class="uil uil-clipboard-alt" style={{ color: "#fff" }}></i>
-                <p>QUOTE</p>
+                <p className="lg:text-[16px]">QUOTE</p>
               </button>
             </div>
             <div className="border-2 border-[#2DC4EA] px-1">
@@ -59,7 +59,7 @@ export const Header = () => {
           </div>
         </div>
         <div className="flex h-[40px] py-2">
-          <div className="basis-7/12	"></div>
+          <div className="lg:basis-7/12	sm:basis-4/12"></div>
           <div className="flex gap-8">
             <div className="flex gap-5 ">
               <Link className="hover:text-[#2DC4EA]"> Home</Link>

@@ -7,7 +7,7 @@ export const AboutTrippro = () => {
     <>
      
       <Fade bottom >
-        <div className="grid grid-cols-2 mx-[200px] gap-[100px]  mt-[15rem]">
+        <div className=" grid grid-cols-2 lg:mx-[200px] sm:mx-[100px]  lg:gap-[100px] sm:gap-[50px]  mt-[15rem]">
           <div className="">
             <h1 className="font-bold text-[36px]">
               ABOUT <span className="text-[#2DC4EA]">TRIPPRO</span>
@@ -30,7 +30,7 @@ export const AboutTrippro = () => {
           </div>
           <div>
             <img
-              className="flex justify-center h-[480px]  "
+              className="flex justify-center lg:h-[480px] sm:h-[350px]  "
               src={tablet}
               alt=""
             />

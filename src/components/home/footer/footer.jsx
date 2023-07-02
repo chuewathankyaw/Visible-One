@@ -15,8 +15,8 @@ export const Footer = () => {
   return (
     <>
   
-      <div className="footer_bg text-white px-[8rem] z-40 	">
-        <div className="grid grid-cols-4 pt-12">
+      <div className="footer_bg  text-white px-[8rem] z-40 	">
+        <div className="grid grid-cols-4  pt-12">
           <div className="">
             <h1>QUICK LINKS</h1>
             <ul className="list-disc ml-6 mt-4 grid gap-2">
@@ -104,7 +104,7 @@ export const Footer = () => {
               <input
                 type="text"
                 placeholder="123@test.com"
-                className="text-slate-200 border-2 border-white bg-transparent py-4 px-2 mt-2 w-[25rem]"
+                className="text-slate-200 border-2 border-white bg-transparent py-4 px-2 mt-2 w-[20rem]"
               />
               <button className="bg-blue-500 px-4 py-3 ml-6">Submit</button>
             </div>
