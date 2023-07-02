@@ -16,7 +16,7 @@ export const Footer = () => {
     <>
   
       <div className="footer_bg  text-white px-[8rem] z-40 	">
-        <div className="grid grid-cols-4  pt-12">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-3   pt-12">
           <div className="">
             <h1>QUICK LINKS</h1>
             <ul className="list-disc ml-6 mt-4 grid gap-2">
@@ -52,7 +52,7 @@ export const Footer = () => {
               <li>Promtion Viedo</li>
             </ul>
           </div>
-          <div>
+          <div className="">
             <h1>VISIBLE ONE SINGPORE</h1>
             <ul className=" mt-4 grid gap-2">
               <li>+65 6248 0838</li>
@@ -63,7 +63,7 @@ export const Footer = () => {
                 Singapore 573970
               </li>
               <li>Office Hour:Mon-Fri(9am-6pm)</li>
-              <div className="grid grid-cols-2 mt-4 content-center">
+              <div className="grid grid-cols-2 mt-4 sm:gap-5 content-center">
                 <li>
                   <button className="bg-blue-500 py-2 px-4">Contact Us</button>
                 </li>
@@ -75,8 +75,8 @@ export const Footer = () => {
           </div>
         </div>
         <span className="block  h-[3px] bg-white  mt-12"></span>
-        <div className="grid grid-cols-2 justify-items-stretch ">
-          <div className="flex h-[5rem] mt-8 gap-4 ">
+        <div className="grid lg:grid-cols-2 justify-items-stretch ">
+          <div className="flex h-[5rem] mt-8 gap-4  ">
             <div className="flex">
               <img className="h-[3rem] w-[8rem]" src={shopify1} alt="" />
             </div>
@@ -110,7 +110,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <span className="block  h-[3px] bg-white"></span>
+        <span className="block  h-[3px] sm:mt-8 lg:mt-0 bg-white"></span>
         <div className="flex  justify-center mt-2 text-[30px] gap-4">
           <i class="uil uil-facebook-f"></i>
           <i class="uil uil-twitter"></i>
