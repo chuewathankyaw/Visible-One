@@ -33,8 +33,6 @@ export const Slider = () => {
     <>
       <div className="mt-20">
         <Swiper
-          // install Swiper modules
-
           spaceBetween={50}
           slidesPerView={1}
           ref={swiperRef}
@@ -135,17 +133,21 @@ export const Slider = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="  flex">
-              <div className="flex items-center h-[420px]">
+              <div className="flex items-center lg:h-[520px] sm:h-[400px]">
                 <div>
                   <img src={desktop2} alt="" />
                 </div>
               </div>
               <div className="flex bg_section_desktop">
                 <div>
-                  <img className="h-[420px] w-[680px]" src={desktop} alt="" />
+                  <img
+                    className="lg:h-[520px] sm:h-[400px] w-[680px]"
+                    src={desktop}
+                    alt=""
+                  />
                 </div>
-                <div className="mt-8 ml-12 pr-20">
-                  <h1 className="text-[36px] font-bold text-white">
+                <div className="lg:mt-12 sm:mt-6 lg:ml-12 sm:ml-6 pr-20">
+                  <h1 className="lg:text-[36px] sm:text-[25px] font-bold text-white">
                     Their Old Website & Peoblems
                   </h1>
                   <div className="mt-4 grid grid-rows-3 gap-4">
@@ -154,7 +156,7 @@ export const Slider = () => {
                         icon={faArrowRight}
                         style={{ color: "white", marginTop: "6px" }}
                       />
-                      <p className="text-white">
+                      <p className="text-white lg:text-[16px] sm:text-[12px]">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod tempor invidunt ut labore et
                         dolore magna aliquyam erat, sed diam
@@ -165,7 +167,7 @@ export const Slider = () => {
                         icon={faArrowRight}
                         style={{ color: "white", marginTop: "6px" }}
                       />
-                      <p className="text-white">
+                      <p className="text-white lg:text-[16px] sm:text-[12px]">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod tempor invidunt ut labore et
                         dolore magna aliquyam erat, sed diam
@@ -176,14 +178,14 @@ export const Slider = () => {
                         icon={faArrowRight}
                         style={{ color: "white", marginTop: "6px" }}
                       />
-                      <p className="text-white">
+                      <p className="text-white lg:text-[16px] sm:text-[12px]">
                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod tempor invidunt ut labore et
                         dolore magna aliquyam erat, sed diam
                       </p>
                     </div>
                   </div>
-                  <div className="mt-6 flex gap-4">
+                  <div className="lg:mt-6 sm:mt-4 flex gap-4">
                     <FontAwesomeIcon
                       icon={faAngleLeft}
                       onClick={goToPrevSlide}
@@ -195,7 +197,7 @@ export const Slider = () => {
                       style={{ color: "white" }}
                     />
                   </div>
-                  <div className="flex gap-3 border-2 rounded-[50px] button_bg pl-4 py-1 w-[25%] mt-6">
+                  <div className="flex gap-3 border-2 rounded-[50px] button_bg pl-4 py-1 lg:w-[25%] sm:w-[50%] lg:mt-4 sm:mt-2">
                     <FontAwesomeIcon
                       icon={faDesktop}
                       style={{
